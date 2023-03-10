@@ -1,0 +1,50 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=Project
+
+[Library]
+Project=.\Project\Project.lib
+
+[SpecTracer]
+WindowVisible=0
+
+[$LibMap$]
+Project=.
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[HierarchyViewer]
+HierarchyInformation=testbench|test|0  
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/Project-1190278.vhd=-1
+/nbitcomp.asdb=-1
+/nbitcomp.awc=-1
+/Project-Diagram.bde=-1
+/nbitaddercomp.bde=-1
+/Stage1TB.asdb=-1
+/Stage1TB.awc=-1
+
+[Files.Data]
+.\src\Project-1190278.vhd=VHDL Source Code
+.\src\nbitcomp.asdb=Accelerated Waveform File
+.\src\nbitcomp.awc=Accelerated Waveform Configuration
+.\src\Project-Diagram.bde=Block Diagram
+.\src\nbitaddercomp.bde=Block Diagram
+.\src\Stage1TB.asdb=Accelerated Waveform File
+.\src\Stage1TB.awc=Accelerated Waveform Configuration
+
+[file_out:/Project-Diagram.bde]
+/..\compile\Project-Diagram.vhd=-1

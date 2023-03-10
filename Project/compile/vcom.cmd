@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/Project/compile/Project.erf -d c:/My_Designs/Project/compile -s c:/My_Designs/Project/library.cfg -j c:/My_Designs/Project/projlib.cfg -work Project -O3 -e 100 -work Project -2002 c:/My_Designs/Project/src/Project-1190278.vhd 

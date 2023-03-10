@@ -1,0 +1,52 @@
+<config>
+    <version>
+        3.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="0c96e632de09b2c5c861f8cdcc0f5800">Stage1TB.asdb</database>
+    </databases>
+    <signallists>
+        <signallist id="0">
+        <signal>/testBench2/clk</signal>
+        <signal>/testBench2/A</signal>
+        <signal>/testBench2/B</signal>
+        <signal>/testBench2/greaterEX</signal>
+        <signal>/testBench2/equalEX</signal>
+        <signal>/testBench2/lessEX</signal>
+        <signal>/testBench2/greater</signal>
+        <signal>/testBench2/equal</signal>
+        <signal>/testBench2/less</signal>
+        <signal>/testBench2/n</signal>
+        </signallist>
+    </signallists>
+    <timebases>
+        <timebase id="0">
+            <time start_time="0" end_time="51238750" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="1760000" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>

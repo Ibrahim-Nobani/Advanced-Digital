@@ -1,0 +1,203 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+testBench testBench test
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7129 kB (elbread=1281 elab2=5707 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Project\src\wave.asdb
+#  1:10 PM, Monday, December 27, 2021
+#  Simulation has been initialized
+run @5us
+# KERNEL: stopped at time: 5 us
+# 10 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Project/src/wave.asdb'.
+run @5.1us
+# KERNEL: stopped at time: 5100 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testBench testBench test
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7129 kB (elbread=1281 elab2=5707 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Project\src\wave.asdb
+#  1:10 PM, Monday, December 27, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Project/src/wave.asdb'.
+run @5us
+# KERNEL: stopped at time: 5 us
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Project -2002  $dsn/src/Project-1190278.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/My_Designs/Project/src/Project-1190278.vhd
+# Compile Entity "inverter2"
+# Compile Architecture "simple" of Entity "inverter2"
+# Compile Entity "nand5"
+# Compile Architecture "simple" of Entity "nand5"
+# Compile Entity "nor5"
+# Compile Architecture "simple" of Entity "nor5"
+# Compile Entity "and7"
+# Compile Architecture "simple" of Entity "and7"
+# Compile Entity "or7"
+# Compile Architecture "simple" of Entity "or7"
+# Compile Entity "xnor9"
+# Compile Architecture "simple" of Entity "xnor9"
+# Compile Entity "xor12"
+# Compile Architecture "simple" of Entity "xor12"
+# Compile Entity "DFlipFlop"
+# Compile Architecture "behave" of Entity "DFlipFlop"
+# Compile Entity "onebitcomp"
+# Compile Architecture "structural" of Entity "onebitcomp"
+# Compile Entity "nbitcomp2"
+# Compile Architecture "structure" of Entity "nbitcomp2"
+# Compile Entity "Equation"
+# Compile Architecture "simple" of Entity "Equation"
+# Compile Entity "onebitadder"
+# Compile Architecture "simple" of Entity "onebitadder"
+# Compile Entity "nbitadder"
+# Compile Architecture "iterative" of Entity "nbitadder"
+# Compile Entity "nbitadderCOMP"
+# Compile Architecture "structural" of Entity "nbitadderCOMP"
+# Compile Entity "testBench"
+# Compile Architecture "test" of Entity "testBench"
+# Compile Entity "testBench2"
+# Compile Architecture "test" of Entity "testBench2"
+# Compile Entity "test_generator"
+# Compile Architecture "tb" of Entity "test_generator"
+# Compile Entity "resultAnalyzer"
+# Compile Architecture "tb" of Entity "resultAnalyzer"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+asim -O5 +access +r +m+testBench testBench test
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7129 kB (elbread=1281 elab2=5707 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Project\src\wave.asdb
+#  1:11 PM, Monday, December 27, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Project/src/wave.asdb'.
+run @1000us
+# EXECUTION:: WARNING: Something is wrong with the Results
+# EXECUTION:: Time: 311200 ns,  Iteration: 0,  Instance: /testBench/g2,  Process: line__395.
+# EXECUTION:: WARNING: Something is wrong with the Results
+# EXECUTION:: Time: 926400 ns,  Iteration: 0,  Instance: /testBench/g2,  Process: line__395.
+# KERNEL: stopped at time: 1 ms
+acom -O3 -e 100 -work Project -2002  $dsn/src/Project-1190278.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:/My_Designs/Project/src/Project-1190278.vhd
+# Compile Entity "inverter2"
+# Compile Architecture "simple" of Entity "inverter2"
+# Compile Entity "nand5"
+# Compile Architecture "simple" of Entity "nand5"
+# Compile Entity "nor5"
+# Compile Architecture "simple" of Entity "nor5"
+# Compile Entity "and7"
+# Compile Architecture "simple" of Entity "and7"
+# Compile Entity "or7"
+# Compile Architecture "simple" of Entity "or7"
+# Compile Entity "xnor9"
+# Compile Architecture "simple" of Entity "xnor9"
+# Compile Entity "xor12"
+# Compile Architecture "simple" of Entity "xor12"
+# Compile Entity "DFlipFlop"
+# Compile Architecture "behave" of Entity "DFlipFlop"
+# Compile Entity "onebitcomp"
+# Compile Architecture "structural" of Entity "onebitcomp"
+# Compile Entity "nbitcomp2"
+# Compile Architecture "structure" of Entity "nbitcomp2"
+# Compile Entity "Equation"
+# Compile Architecture "simple" of Entity "Equation"
+# Compile Entity "onebitadder"
+# Compile Architecture "simple" of Entity "onebitadder"
+# Compile Entity "nbitadder"
+# Compile Architecture "iterative" of Entity "nbitadder"
+# Compile Entity "nbitadderCOMP"
+# Compile Architecture "structural" of Entity "nbitadderCOMP"
+# Compile Entity "testBench"
+# Compile Architecture "test" of Entity "testBench"
+# Compile Entity "testBench2"
+# Compile Architecture "test" of Entity "testBench2"
+# Compile Entity "test_generator"
+# Compile Architecture "tb" of Entity "test_generator"
+# Compile Entity "resultAnalyzer"
+# Compile Architecture "tb" of Entity "resultAnalyzer"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+testBench testBench test
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7129 kB (elbread=1281 elab2=5707 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\Project\src\wave.asdb
+#  1:11 PM, Monday, December 27, 2021
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/Project/src/wave.asdb'.
+run @1000us
+# KERNEL: stopped at time: 1 ms
